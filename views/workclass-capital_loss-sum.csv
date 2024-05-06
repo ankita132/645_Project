@@ -1,0 +1,10 @@
+workclass,sum
+ Federal-gov,107778
+ Private,1815878
+ Without-pay,0
+ Local-gov,229925
+ Never-worked,0
+ Self-emp-not-inc,296361
+ Self-emp-inc,173135
+ ?,111556
+ State-gov,108067

@@ -1,0 +1,8 @@
+marital_status,max
+ Separated,99999
+ Married-civ-spouse,99999
+ Married-AF-spouse,7298
+ Married-spouse-absent,99999
+ Never-married,99999
+ Widowed,99999
+ Divorced,99999

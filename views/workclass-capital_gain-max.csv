@@ -1,0 +1,10 @@
+workclass,max
+ Federal-gov,99999
+ Private,99999
+ Without-pay,4416
+ Local-gov,99999
+ Never-worked,0
+ Self-emp-not-inc,99999
+ Self-emp-inc,99999
+ ?,99999
+ State-gov,99999

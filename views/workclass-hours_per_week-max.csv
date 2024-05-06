@@ -1,0 +1,10 @@
+workclass,max
+ Federal-gov,99
+ Private,99
+ Without-pay,65
+ Local-gov,99
+ Never-worked,40
+ Self-emp-not-inc,99
+ Self-emp-inc,99
+ ?,99
+ State-gov,99

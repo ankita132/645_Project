@@ -1,0 +1,10 @@
+workclass,count
+ Federal-gov,960
+ Private,22696
+ Without-pay,14
+ Local-gov,2093
+ Never-worked,7
+ Self-emp-not-inc,2541
+ Self-emp-inc,1116
+ ?,1836
+ State-gov,1298
