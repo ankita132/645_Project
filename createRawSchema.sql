@@ -8,3 +8,4 @@ race varchar(20), sex varchar(20), capital_gain integer, capital_loss integer,
 hours_per_week integer, native_country varchar(50), income varchar(10));
 
 \COPY Adult FROM './adult.csv' WITH (FORMAT CSV, DELIMITER ',', HEADER MATCH, FORCE_NULL(age, fnlwgt, education_num, capital_loss, capital_gain, hours_per_week));
+\COPY Adult FROM './adult_test.csv' WITH (FORMAT CSV, DELIMITER ',', HEADER MATCH, FORCE_NULL(age, fnlwgt, education_num, capital_loss, capital_gain, hours_per_week));
