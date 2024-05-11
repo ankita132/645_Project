@@ -17,7 +17,7 @@ def convert_data_to_csv(input_file, output_file):
                   'marital_status', 'occupation', 'relationship', 'race',
                   'sex', 'capital_gain', 'capital_loss', 'hours_per_week',
                   'native_country', 'income']
-    df = preprocessCsv(df)
+    if ("test" in input_file) : df = preprocessCsv(df)
     df.to_csv(output_file, index=False)
 
 def removeEndDot(x):
@@ -31,5 +31,5 @@ def preprocessCsv(df):
 
 zip_url = "https://archive.ics.uci.edu/static/public/20/census+income.zip"
 # download_and_extract_zip(zip_url)
-convert_data_to_csv('adult.data', 'adult.csv')
+# convert_data_to_csv('adult.data', 'adult.csv')
 convert_data_to_csv('adult.test', 'adult_test.csv')
